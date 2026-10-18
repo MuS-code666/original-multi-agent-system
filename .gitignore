@@ -9,3 +9,9 @@ __pycache__/
 
 # Office の一時ファイル
 ~$*
+
+# 実データ（入力・出力）はコミットしない。記入例は examples/ を参照
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
