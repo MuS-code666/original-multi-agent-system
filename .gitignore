@@ -10,8 +10,5 @@ __pycache__/
 # Office の一時ファイル
 ~$*
 
-# 実データ（入力・出力）はコミットしない。記入例は examples/ を参照
-input/*
-!input/.gitkeep
-output/*
-!output/.gitkeep
+# 旧設計で記入した実データ（Git 管理外。扱いが決まるまで除外しておく）
+input/
