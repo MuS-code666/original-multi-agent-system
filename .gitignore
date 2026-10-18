@@ -1,0 +1,11 @@
+# 秘密情報
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Office の一時ファイル
+~$*
