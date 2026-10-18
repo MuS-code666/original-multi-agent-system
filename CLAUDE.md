@@ -67,7 +67,9 @@ output/
 
 ## 開発コマンド
 
-- 未定（`pptx-builder` Skill 作成時に追記する）
+- 依存パッケージのインストール：`pip install -r requirements.txt`
+- pptx の生成：`python .claude/skills/pptx-builder/scripts/build_pptx.py output/draft/slides.json`（出力先を省略すると `output/MA候補比較_{YYYYMMDD}.pptx`）
+- Skill の構成：`ma-research-checklist`（調査観点・情報源・レポートのひな形）、`pptx-builder`（スライド構成の規約・生成スクリプト）
 
 ## コーディング規約
 
