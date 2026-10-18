@@ -72,7 +72,10 @@ output/
 
 ## 開発コマンド
 
-- 未定（`sales-report-pptx` Skill 作成時に追記する）
+- 依存パッケージのインストール：`pip install -r requirements.txt`
+- pptx の生成：`python .claude/skills/sales-report-pptx/scripts/build_pptx.py output/draft/{社名}.json`（出力先を省略すると `output/訪問前レポート_{社名}_{YYYYMMDD}.pptx`）
+- Skill の構成：`prospect-research`（調査観点・情報源・調査メモのひな形）、`waste-estimation`（廃棄物の区分・業種との対応表・提案できるサービス・分析のひな形）、`sales-report-pptx`（スライド構成の規約・生成スクリプト）
+- カスタムサブエージェント（`.claude/agents/`）はセッション開始時に読み込まれる。追加・変更したらセッションを再起動してから実行する。
 
 ## コーディング規約
 
